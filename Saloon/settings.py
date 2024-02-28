@@ -27,7 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TAILWIND_APP_NAME = 'theme'
 
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
 # Application definition
 ## aaaaaaaa
 INSTALLED_APPS = [
@@ -42,6 +46,8 @@ INSTALLED_APPS = [
     'product',
     'Customers',
     'SystemUsers',
+    'tailwind',
+    'theme',
 ]
 
 MIDDLEWARE = [
